@@ -213,7 +213,6 @@ img{
     flex-direction: column;
     align-items: center;
     height: max-content;
-    text-align: center;
 }
 
 .home__img{
@@ -415,40 +414,8 @@ img{
     background-color: var(--first-color);
 }
 
-.skills__javascript{
-    width: 80%;
-}
-
-.skills__django{
-    width: 65%;
-}
-
-.skills__python{
-    width: 85%;
-}
-
-.skills__php{
-    width: 85%;
-}
-
-.skills__html{
-    width: 80%;
-}
-
-.skills__bootstrap{
-    width: 85%;
-}
-
-.skills__react{
-    width: 65%;
-}
-
-.skills__materialui{
-    width: 60%;
-}
-
-.skills__cs{
-    width: 60%;
+.skills__barline{
+    width: 100%;
 }
 
 .education__container{

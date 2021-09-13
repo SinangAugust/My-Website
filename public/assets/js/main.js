@@ -50,12 +50,22 @@ window.addEventListener("DOMContentLoaded", function () {
     // Success and Error functions for after the form is submitted
   
     function success() {
-        alert("Thank you for taking the time to get in touch with me. Please know that I will respond as quickly as possible.");
+        Swal.fire({
+            icon: 'success',
+            title: 'Message Sent!',
+            text: 'Thank you! I will get back to you as soon as possible.',
+            showConfirmButton: false,
+            timer: 3000
+          })
         form.reset();
     }
   
     function error() {
-        alert("To contact me, please fill out the required fields in proper format. Thanks!");
+        Swal.fire({
+            icon: 'error    ',
+            title: 'Ooopss...',
+            text: 'To contact me, please fill out the required fields. Thanks!',
+          })
     }
   
     // handle the form submission event
